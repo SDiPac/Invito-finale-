@@ -1,0 +1,68 @@
+/* Rimuove i margini bianchi di default attorno alla pagina */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* --- SEZIONE SUPERIORE --- */
+
+/* Fa da ancora per l'animazione */
+.top-section {
+    position: relative;
+    width: 100%;
+}
+
+/* Detta l'altezza del contenitore */
+.sfondo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Si sovrappone allo sfondo partendo dall'angolo in alto a sinistra */
+.animazione {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+/* --- SEZIONE INFERIORE --- */
+
+/* Fa da ancora per il testo copiabile */
+.bottom-section {
+    position: relative;
+    width: 100%;
+}
+
+/* Segue il flusso e inizia esattamente dove finisce lo sfondo */
+.overlay {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Si sovrappone all'overlay e viene centrato perfettamente */
+.testo-copiabile {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* --- NUOVA PROPRIETÀ PER LA DIMENSIONE --- */
+    font-size: 4vw;
+
+    /* --- NUOVA PROPRIETÀ PER IL FONT --- */
+    font-family: "Cormorant Garamond", serif;
+    /* Stile del testo */
+    color: rgb(188, 55, 86); /* Testo bianco */
+    text-align: center;
+    width: 80%; /* Evita che il testo tocchi i bordi */
+    
+    /* Sfondo semitrasparente per rendere il testo leggibile sopra l'immagine */
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+}
