@@ -47,12 +47,12 @@ body {
 /* Si sovrappone all'overlay e viene centrato perfettamente */
 .testo-copiabile {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     
     /* --- NUOVA PROPRIETÀ PER LA DIMENSIONE --- */
-    font-size: 3vw;
+    font-size: 3.5vw;
 
     /* --- NUOVA PROPRIETÀ PER IL FONT --- */
     font-family: "Cormorant", serif;
@@ -66,3 +66,4 @@ body {
     background-color: rgba(0, 0, 0, 0);
     padding: 20px;
     border-radius: 8px;
+}
