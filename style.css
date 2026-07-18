@@ -52,10 +52,11 @@ body {
     transform: translate(-50%, -50%);
     
     /* --- NUOVA PROPRIETÀ PER LA DIMENSIONE --- */
-    font-size: 4vw;
+    font-size: 3vw;
 
     /* --- NUOVA PROPRIETÀ PER IL FONT --- */
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Cormorant", serif;
+    font-style: italic;
     /* Stile del testo */
     color: rgb(188, 55, 86); /* Testo bianco */
     text-align: center;
@@ -65,4 +66,3 @@ body {
     background-color: rgba(0, 0, 0, 0);
     padding: 20px;
     border-radius: 8px;
-}
