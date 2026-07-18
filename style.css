@@ -47,7 +47,7 @@ body {
 /* Si sovrappone all'overlay e viene centrato perfettamente */
 .testo-copiabile {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     
